@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    background: url('japan.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: -30px;
+    left: -30px;    
+    height: calc(100vh + 60px);
+    width: calc(100vw + 60px);    
+    filter: blur(70px);
+    z-index: -1;
+    transition: filter 2.5s ease;
+}
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#per {
+    color: #fff;
+    font-size: 50px;
+}
